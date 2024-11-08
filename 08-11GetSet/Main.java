@@ -1,18 +1,21 @@
 public class Main {
   public static void main(String[] args) {
-    // Crear un objeto de la clase Coche
+    // Objeto
     Coche miCoche = new Coche();
 
-    // Asignar valores a los atributos usando los métodos set
-    miCoche.setMarca("Toyota");
-    miCoche.setModelo("Corolla");
-    miCoche.setYears(2020);
-    miCoche.setVelocidad(120);
+    // valores validos
 
-    // Obtener y mostrar los valores usando los métodos get
+    miCoche.setMarca("Ford");
+    miCoche.setModelo("Mustang");
+    miCoche.setYears(2000);
+    miCoche.setVelocidad(140);
+
+    // Resultado
     System.out.println("Marca: " + miCoche.getMarca());
     System.out.println("Modelo: " + miCoche.getModelo());
     System.out.println("Año: " + miCoche.getYears());
     System.out.println("Velocidad: " + miCoche.getVelocidad() + " km/h");
+
+
   }
 }
