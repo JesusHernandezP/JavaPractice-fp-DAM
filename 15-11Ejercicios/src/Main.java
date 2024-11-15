@@ -128,7 +128,6 @@ public class Main {
 //    Ejercicio 3: Contar vocales en una cadena
 //    Escribe un programa que reciba una cadena de texto ingresada por el usuario y luego cuente cuántas vocales (a, e, i, o, u) contiene.
 
-    Scanner scan = new Scanner(System.in);
 
 /*    System.out.println(" Escribe una cadena de texto ");
     String texto = scan.nextLine();
@@ -172,6 +171,57 @@ public class Main {
       }
     }
     System.out.println("hay: " + contarConsonante + "consonantes");*/
+
+//  ---------------------------------------------------------------------------------
+
+    /*Ejercicio: Contar la cantidad de palabras en una frase
+    Escribe un programa que reciba una frase del usuario y cuente cuántas palabras contiene.*/
+
+
+    /*System.out.println("ingrese una frase");
+    String frase = scan.nextLine();
+
+    String[] palabras = frase.split(" ");
+
+    System.out.println("la frase tiene: " + palabras.length + " palabras") ;*/
+
+//    ---------------------------------------------------------------------------------
+
+/*    Ejercicio 6: Invertir una cadena de texto
+    Escribe un programa que invierta una cadena de texto ingresada por el usuario.
+
+            Instrucciones:
+
+    Utiliza un bucle para recorrer la cadena desde el final hacia el inicio.
+            Imprime la cadena invertida.*/
+
+
+    /*System.out.println("ingrese una frase");
+    String frase = scan.nextLine();
+
+    String textoInvertido = "";
+    for (int i = frase.length() - 1;  i >= 0; i--) {
+      textoInvertido += frase.charAt(i);
+    }
+      System.out.println(textoInvertido);
+*/
+
+
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("ingrese primer numero");
+    int num1 = scan.nextInt();
+    System.out.println("ingrese segundo numero");
+int num2 = scan.nextInt();
+
+
+
+
+
+
   }
 
 }
