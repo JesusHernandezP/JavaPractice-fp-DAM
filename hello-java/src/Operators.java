@@ -34,7 +34,7 @@ public class Operators {
     a %= 2; // a = a % 2
     System.out.println(a);
 
-    // Comporacion (Relacionales)-------
+    // Comparacion (Relacionales)-------
 
     System.out.println(a == b);
     System.out.println(a == 0);
