@@ -1,3 +1,5 @@
+package data_var_cons;
+
 public class VariablesAndConstants {
 
   public static void main(String[] Args) {
