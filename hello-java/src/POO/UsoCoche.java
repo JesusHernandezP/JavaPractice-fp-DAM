@@ -1,0 +1,25 @@
+package POO;
+
+public class UsoCoche {
+
+  public static void main(String[] args) {
+
+    Coche renault = new Coche();
+
+    renault.arrancar();
+
+    Coche mazda = new Coche();
+
+    mazda.setRuedas(3);
+
+    mazda.setColor("verde");
+
+    System.out.println("el mazda tiene: " + mazda.getRuedas());
+    System.out.println("El renault tiene: " + renault.getRuedas());
+    System.out.println("El color del coche es : " + mazda.getColor());
+    System.out.println("El color del coche es : " + renault.getColor());
+
+    mazda.girar();
+
+  }
+}
