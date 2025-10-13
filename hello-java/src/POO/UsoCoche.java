@@ -21,5 +21,14 @@ public class UsoCoche {
 
     mazda.girar();
 
+    Coche coche1=new Coche();
+
+    coche1.setAsientosCuero("si");
+    coche1.setClimatizador("si");
+
+    System.out.println("peso : " + coche1.getPeso());
+    System.out.println("Precio: " + coche1.getPrecioBase());
+
+
   }
 }
